@@ -3,6 +3,9 @@ const cors = require('cors');
 const app = express();
 const port = 8000;
 
+const messages = require('./app/messages');
+const fileDb = require('./fileDb');
+
 fileDb.init();
 
 
